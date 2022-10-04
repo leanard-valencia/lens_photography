@@ -1,0 +1,392 @@
+/* The hero image */
+.header-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/camera.jpg");
+  
+    /* Set a specific height */
+    height: 10%; 
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 370px;
+    
+}
+
+.header-image1 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/cam.jpg");
+  
+    /* Set a specific height */
+    height: 10%; 
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 200px;
+    
+}
+
+
+.header-image2 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/green.jpg");
+  
+    /* Set a specific height */
+    height: 10%; 
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 200px;
+    
+}
+
+.header-image3 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/gr.jpg");
+  
+    /* Set a specific height */
+    height: 10%; 
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 200px;
+    
+}
+
+.header-image5 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/film.jpg");
+  
+    /* Set a specific height */
+    height: 10%; 
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 200px;
+    
+}
+  /* Place text in the middle of the image */
+.header-text {
+    text-align:left;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:medium;
+   
+}
+
+.htitle{
+    font-weight: lighter;
+}
+
+.hcap{
+    font-size:medium;
+}
+
+.navtitle{
+    font-family: Tahome, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+  
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+body{
+    padding: 0; 
+    margin: 0; 
+    background-color:white;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    min-height: 100vh;
+  
+}
+
+.header{
+    font-family: Tahoma, sans-serif;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    display: flex;
+    padding: 20px;
+    justify-content:space-between;
+    background-color: white;
+    padding-right: 10%;
+    padding-left: 10%;
+
+
+}
+
+
+li {
+    float: left;
+    color:black;
+}
+  
+a {
+    color: black;
+    font-size: 0.8rem;
+    
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: underline; }
+
+footer {
+    background-color: white;
+    text-align:justify;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0px;
+}
+
+.content{
+    color:  rgb(0, 25, 11); 
+    background-color: white; 
+    padding-bottom: 100px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.officers{
+    color: white; 
+    background-color:  rgb(0, 25, 11); 
+    padding-bottom: 100px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.about{
+    font-weight: lighter;
+}
+
+.pabout{
+    color: rgb(38, 28, 28);
+    font-size:medium;
+}
+
+.tagline{
+    font-weight: bold;
+}
+
+#events{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: #024f33;
+}
+  
+#events td, #events th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#events tr:nth-child(even){background-color: #f2f2f2;}
+  
+#events tr:hover {background-color: #ddd;}
+  
+#events th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.gal{
+    color: black;
+    padding-left: 500px;
+}
+
+.gall{
+    color: black;
+    font-weight: lighter;
+    font-size:medium;
+    padding-left: 570px;
+}
+
+
+.wrapper {
+    background-color: #4CAF50;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.wrapper form{
+    flex-grow: 1;
+    margin-top: 10px;
+    flex-direction:row;
+    display:flex;
+    align-items:stretch;
+    justify-content: flex-start; 
+}
+
+.wrapper form .input-box{
+    height: 52px;
+    margin: 18px 0;
+    flex-direction:column;
+    display:flex;
+    align-items:stretch;
+    justify-content: flex-start; 
+}
+form .input-box input{
+    height: 100%;
+    width: 200px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    display:flex;
+    align-items:stretch;
+    justify-content: flex-start; 
+    border-color:#024f33;
+    margin-left: 500px;
+}
+.input-box input:focus,
+.input-box input:valid{
+    border-color:#024f33
+}
+form .policy{
+    display: flex;
+    align-items: center;
+    display:flex;
+    justify-content: flex-start; 
+}
+ .input-box.button input{
+    color:#024f33;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    flex-direction:row;
+    display:flex;
+    align-items:stretch;
+    justify-content: flex-start; 
+    width: 120px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.input-box.button input:hover{
+    color:#04AA6D;
+    background-color:white;
+    display:flex;
+    align-items:stretch;
+    justify-content: flex-start; 
+}
+  
+
+.intro{
+    font-size: larger;
+    color: white;
+    background-color: #024f33;
+}
+
+
+
